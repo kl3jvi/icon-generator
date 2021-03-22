@@ -1,0 +1,8 @@
+extends ./templates/base.static
+block content
+    include ./templates/editor.static.jade
+    include ./templates/input.static.jade
+
+block script
+    script.
+        require('js/app').init()
