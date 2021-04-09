@@ -5,13 +5,13 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Maddoc42/MaterialIconsGenerator"
+    "url": "https://github.com/kl3jvi/icon-generator"
   },
   "license": "Apache-2.0",
   "scripts": {
     "start": "brunch watch --server",
     "clean": "rm -r public/*",
-    "deploy": "./bin/deploy-production.sh",
+    "deploy": "./bin/deploy.sh",
     "test": "casperjs test tests/*.js"
   },
   "dependencies": {
